@@ -1,0 +1,13 @@
+name = "template"
+type = "webpack"
+route = ''
+account_id = '$CF_AccountID'
+zone_id = '$CF_ZoneID'
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2022-10-27"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
